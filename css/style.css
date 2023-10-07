@@ -298,6 +298,8 @@ button:focus {
       background: url(../img/banner/home-banner.jpeg) no-repeat scroll center center;
       position: absolute;
       left: 0;
+      background-size: 100% 100%;
+     
       right: 0;
       top: 0;
       height: 121%;
