@@ -2482,7 +2482,8 @@ h6 {
 /* Testimonials Area css
 ============================================================================================ */
 .testimonials_area {
-  position: relative; }
+  position: relative; 
+}
 
 .testi_slider {
   max-width: 945px;
@@ -2493,8 +2494,8 @@ h6 {
     text-align: center;
     border: 1px solid #eeeeee; }
     .testi_slider .testi_item img {
-      width: auto;
-      margin: auto;
+     
+      
       margin-top: -50px; }
   .testi_slider .owl-dots {
     text-align: center;
