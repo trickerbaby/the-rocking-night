@@ -3124,3 +3124,65 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+/*OUR TEAM */
+
+.team-section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.team-member {
+  display: flex;
+  justify-content: center;
+}
+
+.member {
+  background-color: #fff;
+  color: #333;
+  margin: 10px;
+  padding: 20px;
+  width: 45%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 20px;
+  display: block;
+  transition: transform 0.2s;
+}
+
+.member:hover img {
+  transform: scale(1.1);
+}
+
+.member h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.member p {
+  font-size: 16px;
+}
+
+/* Media query for screens narrower than 552px (phone view) */
+@media (max-width: 552px) {
+  .team-member {
+      flex-direction: column;
+  }
+  .member {
+      width: 90%;
+  }
+}
