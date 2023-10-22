@@ -64,7 +64,7 @@ body {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: #777777; }
+  color: #000000; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
@@ -2831,7 +2831,7 @@ h6 {
   .packages_item .pack_head p {
     margin-bottom: 25px; }
   .packages_item .pack_body .list li a {
-    color: #777777;
+    color: #000000;
     line-height: 50px;
     border-bottom: 1px solid #eeeeee;
     display: block; }
