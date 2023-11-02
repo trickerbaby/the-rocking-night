@@ -76,6 +76,12 @@
 		bottom: 6px;
 		position: relative;
 	}
+	/*Header Logo */
+	.header-logo
+	{
+		position: relative;
+		top:50px;
+	}
 	.navbar-toggler span{
 		display: block;
 		width: 25px;
