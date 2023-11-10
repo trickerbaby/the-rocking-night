@@ -80,7 +80,7 @@
 	.header-logo
 	{
 		position: relative;
-		top:50px;
+		top:110px;
 	}
 	.navbar-toggler span{
 		display: block;
@@ -214,6 +214,7 @@
 	}
 }
 @media (max-width:767px){
+	
 	.home_banner_area {
 		min-height: 500px;
 	}
